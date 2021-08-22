@@ -59,9 +59,9 @@ class LargeChild extends StatelessWidget {
               child: Row(
                 children: [
                   SizedBox(width: 32),
-                  Image.network("assets/lp2.png", scale: .85),
+                  Image.asset("assets/lp2.png", scale: .85),
                   SizedBox(width: 16),
-                  Image.network("assets/lp1.png", scale: .85)
+                  Image.asset("assets/lp1.png", scale: .85)
                 ],
               ),
             ),
@@ -101,8 +101,7 @@ class LargeChild extends StatelessWidget {
                           'https://apps.apple.com/jp/app/id1506164976?platform=iphone&name=lp',
                           '');
                     },
-                    child:
-                        Image.network("assets/app_store_dl.webp", height: 50),
+                    child: Image.asset("assets/app_store_dl.webp", height: 50),
                   )
                 ],
               ),
@@ -147,9 +146,9 @@ class SmallChild extends StatelessWidget {
             Center(
                 child: Column(
               children: [
-                Image.network("assets/lp2.png", width: 240),
+                Image.asset("assets/lp2.png", width: 240),
                 SizedBox(height: 16),
-                Image.network("assets/lp1.png", width: 240),
+                Image.asset("assets/lp1.png", width: 240),
               ],
             )),
             SizedBox(
@@ -162,7 +161,7 @@ class SmallChild extends StatelessWidget {
                       'https://apps.apple.com/jp/app/id1506164976?platform=iphone&name=lp',
                       '');
                 },
-                child: Image.network("assets/app_store_dl.webp", height: 50),
+                child: Image.asset("assets/app_store_dl.webp", height: 50),
               ),
             ),
             SizedBox(

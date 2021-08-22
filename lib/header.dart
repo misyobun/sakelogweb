@@ -16,7 +16,7 @@ class Header extends StatelessWidget {
                 height: 60,
                 child: ClipRRect(
                     borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                    child: Image.network(
+                    child: Image.asset(
                       "assets/Icon.png",
                       scale: .85,
                       width: 60,
